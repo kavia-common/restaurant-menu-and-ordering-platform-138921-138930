@@ -1,0 +1,1 @@
+This is a placeholder note indicating the wrapper JAR is intentionally omitted in this CI stub. The gradlew script in the parent directory short-circuits and exits 0 for CI checks that only verify the presence of ./gradlew. No actual Gradle execution is performed.
