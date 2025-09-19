@@ -15,6 +15,12 @@ Getting Started
 - Run: npm start
 - Android/iOS/Web via Expo as needed
 
+Troubleshooting
+- If you see an error like: "react-native-gesture-handler is added as a dependency in your project's package.json but it doesn't seem to be installed", run: npm install
+- If Expo warns about expected versions for packages (expo, react-native-gesture-handler, react-native-reanimated, react-native-safe-area-context, react-native-screens), update to the suggested versions for best compatibility:
+  - Example: npm i -S expo@53.0.22 react-native-gesture-handler@~2.24.0 react-native-reanimated@~3.17.4 react-native-safe-area-context@5.4.0 react-native-screens@~4.11.1
+  - After updating, clear cache if needed: npx expo start -c
+
 Configuration
 - Copy .env.example to .env and set BASE_URL as needed for backend integration.
 
