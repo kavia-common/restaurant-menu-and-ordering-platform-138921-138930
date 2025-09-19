@@ -1,0 +1,4 @@
+{
+    "command": "npm run web -- --port <port>",
+    "working_directory": "/home/kavia/workspace/code-generation/restaurant-menu-and-ordering-platform-138921-138930/restaurant_app_frontend"
+}
