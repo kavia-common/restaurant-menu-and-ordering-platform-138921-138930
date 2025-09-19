@@ -3,8 +3,8 @@ import { StatusBar } from 'expo-status-bar';
 import { NavigationContainer, DefaultTheme, Theme } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { View, Platform } from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons';
+import { Platform } from 'react-native';
+import { Ionicons as Icon } from '@expo/vector-icons';
 
 import MenuScreen from './src/screens/MenuScreen';
 import OrdersScreen from './src/screens/OrdersScreen';
@@ -59,7 +59,6 @@ export default function App() {
             <Tab.Screen name="Orders" component={OrdersScreen} options={{ title: 'Orders' }} />
             <Tab.Screen name="Restaurant" component={RestaurantInfoScreen} options={{ title: 'Info' }} />
           </Tab.Navigator>
-          <View />
         </NavigationContainer>
       </AppProvider>
     </SafeAreaProvider>
